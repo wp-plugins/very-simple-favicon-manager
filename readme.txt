@@ -18,7 +18,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple plugin to add a favicon in the address bar of your browser. For more info please check readme file.
+This is a very simple plugin to add a favicon in the address bar of your browser.
 
 When no favicon is added, the default WordPress favicon will be used.
 
@@ -50,7 +50,7 @@ After installation upload your favicon (.ico file) in the media library, copy fi
 I recommend using a square icon with extension .ico and size 16x16 px.
 
 = Can I use .png or .jpg file in stead of .ico file? =
-Yes, but the favicon will not be visbile in all browsers.
+Yes, but the favicon will not be visible in all browsers.
 
 = Other question or comment? =
 Please open a topic in plugin forum or send me a message via my website.
