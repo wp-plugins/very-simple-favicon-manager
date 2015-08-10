@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Favicon Manager\n"
-"POT-Creation-Date: 2015-07-27 09:07+0200\n"
-"PO-Revision-Date: 2015-07-27 09:09+0200\n"
+"POT-Creation-Date: 2015-08-10 10:27+0200\n"
+"PO-Revision-Date: 2015-08-10 10:28+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -37,8 +37,8 @@ msgid ""
 "Upload your favicon (.ico file) in the media library and copy-paste link "
 "here."
 msgstr ""
-"Upload je favicon (.ico bestand) in de media bibliotheek en kopieer-plak "
-"de link hier."
+"Upload je favicon (.ico bestand) in de media bibliotheek en kopieer-plak de "
+"link hier."
 
 #. Plugin Name of the plugin/theme
 #: vsfm.php:54
@@ -51,11 +51,11 @@ msgstr "Favicon Opslaan"
 
 #: vsfm.php:59
 msgid ""
-"A favicon is a 16x16 px icon with extension .ico which is displayed in the "
-"address bar of your browser and in your bookmark list."
+"A favicon is a 16x16px or 32x32px icon with extension .ico which is "
+"displayed in the address bar of your browser and in your bookmark list."
 msgstr ""
-"Een favicon is een 16x16 px icoon met extensie .ico die getoond wordt in "
-"de adresbalk van je browser en in je favorieten lijst."
+"Een favicon is een 16x16px of 32x32px icoon met extensie .ico die getoond "
+"wordt in de adresbalk van je browser en in je favorieten lijst."
 
 #: vsfm.php:60
 msgid "When no favicon is added, the default WordPress favicon will be used."
@@ -78,3 +78,10 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://www.guidovanderleest.nl"
 msgstr ""
+
+#~ msgid ""
+#~ "A favicon is a 16x16 px icon with extension .ico which is displayed in "
+#~ "the address bar of your browser and in your bookmark list."
+#~ msgstr ""
+#~ "Een favicon is een 16x16 px icoon met extensie .ico die getoond wordt in "
+#~ "de adresbalk van je browser en in je favorieten lijst."
