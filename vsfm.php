@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Favicon Manager
  * Description: This is a very simple plugin to add a favicon in the address bar of your browser. For more info please check readme file.
- * Version: 1.1
+ * Version: 1.2
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -51,14 +51,14 @@ function vsfm_options_page() {
 ?>
 <div class="wrap"> 
 	<div id="icon-plugins" class="icon32"></div> 
-	<h2><?php _e( 'Very Simple Favicon Manager', 'favicon' ); ?></h2> 
+	<h1><?php _e( 'Very Simple Favicon Manager', 'favicon' ); ?></h1> 
 	<form action="options.php" method="POST">
 	<?php settings_fields( 'vsfm-options' ); ?>
 	<?php do_settings_sections( 'vsfm' ); ?>
 	<?php submit_button(__('Save Favicon', 'favicon')); ?>
-	<p><?php _e( 'A favicon is a 16x16 px icon with extension .ico which is displayed in the address bar of your browser and in your bookmark list.', 'favicon' ); ?><p>
-	<p><?php _e( 'When no favicon is added, the default WordPress favicon will be used.', 'favicon' ); ?><p>
 	</form>
+	<p><?php _e( 'A favicon is a 16x16px or 32x32px icon with extension .ico which is displayed in the address bar of your browser and in your bookmark list.', 'favicon' ); ?></p>
+	<p><?php _e( 'When no favicon is added, the default WordPress favicon will be used.', 'favicon' ); ?></p>
 </div>
 <?php
 }
