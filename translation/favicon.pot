@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Favicon Manager\n"
-"POT-Creation-Date: 2015-08-10 10:29+0200\n"
-"PO-Revision-Date: 2015-08-10 10:29+0200\n"
+"POT-Creation-Date: 2015-08-13 23:26+0200\n"
+"PO-Revision-Date: 2015-08-13 23:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,43 +23,60 @@ msgstr ""
 msgid "Favicon Manager"
 msgstr ""
 
-#: vsfm.php:32
-msgid "How it works"
+#: vsfm.php:31
+msgid "Favicon (16x16px or 32x32px)"
 msgstr ""
 
-#: vsfm.php:33
+#: vsfm.php:32
 msgid "Your Favicon"
 msgstr ""
 
+#: vsfm.php:35
+msgid "IOS app icon (180x180px)"
+msgstr ""
+
+#: vsfm.php:36
+msgid "Your IOS app icon"
+msgstr ""
+
 #: vsfm.php:39
+msgid "Android app icon (192x192px)"
+msgstr ""
+
+#: vsfm.php:40
+msgid "Your Android app icon"
+msgstr ""
+
+#: vsfm.php:47
 msgid ""
-"Upload your favicon (.ico file) in the media library and copy-paste link "
-"here."
+"Upload your favicon (.ico or .png file) in the media library and copy-paste "
+"link here."
+msgstr ""
+
+#: vsfm.php:51 vsfm.php:56
+msgid ""
+"Upload your icon (.png file) in the media library and copy-paste link here."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-#: vsfm.php:54
+#: vsfm.php:83
 msgid "Very Simple Favicon Manager"
 msgstr ""
 
-#: vsfm.php:58
-msgid "Save Favicon"
+#: vsfm.php:87
+msgid "Save"
 msgstr ""
 
-#: vsfm.php:59
+#: vsfm.php:89
 msgid ""
-"A favicon is a 16x16px or 32x32px icon with extension .ico which is "
-"displayed in the address bar of your browser and in your bookmark list."
-msgstr ""
-
-#: vsfm.php:60
-msgid "When no favicon is added, the default WordPress favicon will be used."
+"When no favicon or app icon is added, the default WordPress favicon or app "
+"icon will be used."
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"This is a very simple plugin to add a favicon in the address bar of your "
-"browser. For more info please check readme file."
+"This is a very simple plugin to add an IOS or Android app icon or a favicon "
+"in the address bar of your browser. For more info please check readme file."
 msgstr ""
 
 #. Author of the plugin/theme
