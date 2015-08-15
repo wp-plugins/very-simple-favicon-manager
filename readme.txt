@@ -12,6 +12,7 @@ Tags: simple, favicon, manager, site, icon, ico, bookmark, app, ios, android
 == Changelog == 
 Version 1.4
 - added new default icons
+- updated language files
 
 Version 1.3
 - MAJOR UPDATE: now you can set app icons for IOS and Android too

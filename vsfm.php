@@ -86,7 +86,7 @@ function vsfm_options_page() {
 	<?php do_settings_sections( 'vsfm' ); ?>
 	<?php submit_button(__('Save', 'favicon')); ?>
 	</form>
-	<p><?php _e( 'When no favicon or app icon is added, the default WordPress favicon or app icon will be used.', 'favicon' ); ?></p>
+	<p><?php _e( 'When no favicon or app icon is added, a default favicon or app icon will be used.', 'favicon' ); ?></p>
 </div>
 <?php
 }
