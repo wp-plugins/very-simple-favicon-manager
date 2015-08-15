@@ -1,6 +1,6 @@
 === Very Simple Favicon Manager ===
 Contributors: Guido07111975
-Version: 1.3
+Version: 1.4
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, favicon, manager, site, icon, ico, bookmark, app, ios, android
 
 
 == Changelog == 
+Version 1.4
+- added new default icons
+
 Version 1.3
 - MAJOR UPDATE: now you can set app icons for IOS and Android too
 - updated file readme
@@ -30,7 +33,7 @@ Version 1.0
 == DESCRIPTION ==
 This is a very simple plugin to add an IOS or Android app icon or a favicon in the address bar of your browser.
 
-When no favicon or app icon is added, the default WordPress favicon or app icon will be used.
+When no favicon or app icon is added, a default favicon or app icon will be used.
 
 Question? Please take a look at the FAQ section.
 
@@ -50,7 +53,7 @@ Guido
 
 
 == INSTALLATION == 
-After installation upload your favicon (.ico file or .png file) and/or app icon (.png file) in the media library.
+After installation upload your favicon (.ico file or .png file) and/or your IOS or Android app icon (.png file) in the media library.
 
 Copy file link.
 

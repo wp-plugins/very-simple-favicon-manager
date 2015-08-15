@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Favicon Manager
  * Description: This is a very simple plugin to add an IOS or Android app icon or a favicon in the address bar of your browser. For more info please check readme file.
- * Version: 1.3
+ * Version: 1.4
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
