@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Favicon Manager\n"
-"POT-Creation-Date: 2015-08-15 13:51+0200\n"
-"PO-Revision-Date: 2015-08-15 13:51+0200\n"
+"POT-Creation-Date: 2015-08-18 22:21+0200\n"
+"PO-Revision-Date: 2015-08-18 22:22+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -48,7 +48,15 @@ msgstr "Android app icoon (192x192px)"
 msgid "Your Android app icon"
 msgstr "Je Android app icoon"
 
-#: vsfm.php:47
+#: vsfm.php:43
+msgid "Windows app icon (270x270px)"
+msgstr "Windows app icoon (270x270px)"
+
+#: vsfm.php:44
+msgid "Your Windows app icon"
+msgstr "Je Windows app icoon"
+
+#: vsfm.php:51
 msgid ""
 "Upload your favicon (.ico or .png file) in the media library and copy-paste "
 "link here."
@@ -56,7 +64,7 @@ msgstr ""
 "Upload je favicon (.ico of .png bestand) in de media bibliotheek en kopieer-"
 "plak de link hier."
 
-#: vsfm.php:51 vsfm.php:56
+#: vsfm.php:55 vsfm.php:60 vsfm.php:64
 msgid ""
 "Upload your icon (.png file) in the media library and copy-paste link here."
 msgstr ""
@@ -64,15 +72,15 @@ msgstr ""
 "link hier."
 
 #. Plugin Name of the plugin/theme
-#: vsfm.php:83
+#: vsfm.php:96
 msgid "Very Simple Favicon Manager"
 msgstr ""
 
-#: vsfm.php:87
+#: vsfm.php:100
 msgid "Save"
 msgstr "Opslaan"
 
-#: vsfm.php:89
+#: vsfm.php:102
 msgid ""
 "When no favicon or app icon is added, a default favicon or app icon will be "
 "used."
@@ -82,12 +90,13 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"This is a very simple plugin to add an IOS or Android app icon or a favicon "
-"in the address bar of your browser. For more info please check readme file."
+"This is a very simple plugin to add an IOS, Android or Windows app icon or a "
+"favicon in the address bar of your browser. For more info please check "
+"readme file."
 msgstr ""
-"Dit is een zeer eenvoudige plugin om een IOS of Android app icoon toe te "
-"voegen of een favicon in de adresbalk van je browser. Voor meer info zie "
-"readme bestand."
+"Dit is een zeer eenvoudige plugin om een IOS, Android of Windows app icoon "
+"toe te voegen of een favicon in de adresbalk van je browser. Voor meer info "
+"zie readme bestand."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"
