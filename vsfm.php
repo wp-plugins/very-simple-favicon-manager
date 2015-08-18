@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Very Simple Favicon Manager
- * Description: This is a very simple plugin to add an IOS or Android app icon or a favicon in the address bar of your browser. For more info please check readme file.
- * Version: 1.4
+ * Description: This is a very simple plugin to add an IOS, Android or Windows app icon or a favicon in the address bar of your browser. For more info please check readme file.
+ * Version: 1.5
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -39,6 +39,10 @@ function vsfm_admin_init() {
 	add_settings_section( 'vsfm-section-android', __( 'Android app icon (192x192px)', 'favicon' ), 'vsfm_section_callback_android', 'vsfm' );
 	add_settings_field( 'vsfm-field-android', __( 'Your Android app icon', 'favicon' ), 'vsfm_field_callback_android', 'vsfm', 'vsfm-section-android' );
 	register_setting( 'vsfm-options', 'vsfm-setting-android', 'sanitize_text_field' );
+
+	add_settings_section( 'vsfm-section-windows', __( 'Windows app icon (270x270px)', 'favicon' ), 'vsfm_section_callback_windows', 'vsfm' );
+	add_settings_field( 'vsfm-field-windows', __( 'Your Windows app icon', 'favicon' ), 'vsfm_field_callback_windows', 'vsfm', 'vsfm-section-windows' );
+	register_setting( 'vsfm-options', 'vsfm-setting-windows', 'sanitize_text_field' );
 }
 add_action( 'admin_init', 'vsfm_admin_init' );
 
@@ -53,6 +57,10 @@ function vsfm_section_callback_ios() {
 
 
 function vsfm_section_callback_android() {
+	echo __( 'Upload your icon (.png file) in the media library and copy-paste link here.', 'favicon' ); 
+}
+
+function vsfm_section_callback_windows() {
 	echo __( 'Upload your icon (.png file) in the media library and copy-paste link here.', 'favicon' ); 
 }
 
@@ -72,6 +80,11 @@ function vsfm_field_callback_ios() {
 function vsfm_field_callback_android() {
 	$vsfm_setting_android = esc_url( get_option( 'vsfm-setting-android' ) );
 	echo "<input type='text' size='60' maxlength='150' name='vsfm-setting-android' value='$vsfm_setting_android' />";
+}
+
+function vsfm_field_callback_windows() {
+	$vsfm_setting_windows = esc_url( get_option( 'vsfm-setting-windows' ) );
+	echo "<input type='text' size='60' maxlength='150' name='vsfm-setting-windows' value='$vsfm_setting_windows' />";
 }
 
 
@@ -110,7 +123,7 @@ add_action( 'wp_head', 'vsfm_display_favicon' );
 // include IOS app icon in header 
 function vsfm_display_icon_ios() {
 	$vsfm_custom_icon_ios = esc_url( get_option( 'vsfm-setting-ios' ) );
-	$vsfm_default_icon_ios = plugins_url( 'images/wp-ios.png', __FILE__ ); 
+	$vsfm_default_icon_ios = plugins_url( 'images/icon-ios.png', __FILE__ ); 
 
 	if (empty($vsfm_custom_icon_ios)) {
 		echo '<link rel="apple-touch-icon" href="'.$vsfm_default_icon_ios.'" sizes="180x180" />'."\n";
@@ -125,7 +138,7 @@ add_action( 'wp_head', 'vsfm_display_icon_ios' );
 // include Android app icon in header 
 function vsfm_display_icon_android() {
 	$vsfm_custom_icon_android = esc_url( get_option( 'vsfm-setting-android' ) );
-	$vsfm_default_icon_android = plugins_url( 'images/wp-android.png', __FILE__ ); 
+	$vsfm_default_icon_android = plugins_url( 'images/icon-android.png', __FILE__ ); 
 
 	if (empty($vsfm_custom_icon_android)) {
 		echo '<link rel="icon" href="'.$vsfm_default_icon_android.'" sizes="192x192" />'."\n";
@@ -135,5 +148,20 @@ function vsfm_display_icon_android() {
 	}
 }
 add_action( 'wp_head', 'vsfm_display_icon_android' );
+
+
+// include Windows app icon in header 
+function vsfm_display_icon_windows() {
+	$vsfm_custom_icon_windows = esc_url( get_option( 'vsfm-setting-windows' ) );
+	$vsfm_default_icon_windows = plugins_url( 'images/icon-windows.png', __FILE__ ); 
+
+	if (empty($vsfm_custom_icon_windows)) {
+		echo '<meta name="msapplication-TileImage" content="href="'.$vsfm_default_icon_windows.'">'."\n";
+	}
+	else {
+		echo '<meta name="msapplication-TileImage" content="href="'.$vsfm_custom_icon_windows.'">'."\n";
+	}
+}
+add_action( 'wp_head', 'vsfm_display_icon_windows' );
 
 ?>

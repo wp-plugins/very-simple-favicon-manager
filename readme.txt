@@ -1,15 +1,20 @@
 === Very Simple Favicon Manager ===
 Contributors: Guido07111975
-Version: 1.4
+Version: 1.5
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
 Tested up to: 4.3
 Stable tag: trunk
-Tags: simple, favicon, manager, site, icon, ico, bookmark, app, ios, android
+Tags: simple, favicon, manager, site, icon, ico, bookmark, app, tile, ios, android, windows
 
 
 == Changelog == 
+Version 1.5
+- now you can set app icon for windows too
+- added new default icons
+- updated language files
+
 Version 1.4
 - added new default icons
 - updated language files
@@ -32,7 +37,7 @@ Version 1.0
 
 
 == DESCRIPTION ==
-This is a very simple plugin to add an IOS or Android app icon or a favicon in the address bar of your browser.
+This is a very simple plugin to add an IOS, Android or Windows app icon or a favicon in the address bar of your browser.
 
 When no favicon or app icon is added, a default favicon or app icon will be used.
 
@@ -54,7 +59,7 @@ Guido
 
 
 == INSTALLATION == 
-After installation upload your favicon (.ico file or .png file) and/or your IOS or Android app icon (.png file) in the media library.
+After installation upload your favicon (.ico file or .png file) and/or your IOS, Android or Windows app icon (.png file) in the media library.
 
 Copy file link.
 
@@ -72,6 +77,8 @@ For desktop and laptop browsers I recommend using a square icon with extension .
 For IOS device I recommend using a square icon with extension .png and size 180x180px.
 
 For Android device I recommend using a square icon with extension .png and size 192x192px.
+
+For Windows device I recommend using a square icon with extension .png and size 270x270px.
 
 = Can I use your plugin in combination with the new site icon feature in WordPress dashboard? =
 No, you should not use both.
