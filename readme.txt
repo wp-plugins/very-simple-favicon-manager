@@ -1,6 +1,6 @@
 === Very Simple Favicon Manager ===
 Contributors: Guido07111975
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,11 @@ Tags: simple, favicon, manager, site, icon, ico, bookmark, app, tile, ios, andro
 
 
 == Changelog == 
+Version 1.6
+- In next update I will remove the Windows app icon again, because Windows uses too many different sizes.
+- And because many Android devices use the same icon as IOS devices, I will combine the two in next update.
+- Next update first week of september so untill then you can clear the Android and Wndows input fields.
+
 Version 1.5
 - now you can set app icon for windows too
 - added new default icons
@@ -42,6 +47,14 @@ This is a very simple plugin to add an IOS, Android or Windows app icon or a fav
 When no favicon or app icon is added, a default favicon or app icon will be used.
 
 Question? Please take a look at the FAQ section.
+
+---
+In next update I will remove the Windows app icon again, because Windows uses too many different sizes.
+
+And because many Android devices use the same icon as IOS devices, I will combine the two in next update.
+
+Next update first week of september so untill then you can clear the Android and Wndows input fields.
+---
 
 
 = Translation =
