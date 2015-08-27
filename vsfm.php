@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Favicon Manager
  * Description: This is a very simple plugin to add an IOS, Android or Windows app icon or a favicon in the address bar of your browser. For more info please check readme file.
- * Version: 1.6
+ * Version: 1.7
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -97,7 +97,7 @@ function vsfm_options_page() {
 <hr>
 <h3>In next update I will remove the Windows app icon again, because Windows uses too many different sizes.</h3>
 <h3>And because many Android devices use the same icon as IOS devices, I will combine the two in next update.</h3>
-<h3>Next update first week of september so untill then you can clear the Android and Wndows input fields.<h3>
+<h3>Next update first week of september so untill then you can clear the Android and Windows input fields.</h3>
 <hr>
 	<form action="options.php" method="POST">
 	<?php settings_fields( 'vsfm-options' ); ?>
