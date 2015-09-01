@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Very Simple Favicon Manager\n"
-"POT-Creation-Date: 2015-08-18 22:21+0200\n"
-"PO-Revision-Date: 2015-08-18 22:22+0200\n"
+"POT-Creation-Date: 2015-09-01 21:02+0200\n"
+"PO-Revision-Date: 2015-09-01 21:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -25,46 +25,30 @@ msgid "Favicon Manager"
 msgstr "Favicon Manager"
 
 #: vsfm.php:31
-msgid "Favicon (16x16px or 32x32px)"
-msgstr "Favicon (16x16px of 32x32px)"
+msgid "Favicon (16x16px or multi-size)"
+msgstr "Favicon (16x16px of multi-size)"
 
 #: vsfm.php:32
 msgid "Your Favicon"
 msgstr "Je favicon"
 
 #: vsfm.php:35
-msgid "IOS app icon (180x180px)"
-msgstr "IOS app icoon (180x180px)"
+msgid "IOS site icon (180x180px)"
+msgstr "IOS site icoon (180x180px)"
 
 #: vsfm.php:36
-msgid "Your IOS app icon"
-msgstr "Je IOS app icoon"
-
-#: vsfm.php:39
-msgid "Android app icon (192x192px)"
-msgstr "Android app icoon (192x192px)"
-
-#: vsfm.php:40
-msgid "Your Android app icon"
-msgstr "Je Android app icoon"
+msgid "Your IOS site icon"
+msgstr "Je IOS site icoon"
 
 #: vsfm.php:43
-msgid "Windows app icon (270x270px)"
-msgstr "Windows app icoon (270x270px)"
-
-#: vsfm.php:44
-msgid "Your Windows app icon"
-msgstr "Je Windows app icoon"
-
-#: vsfm.php:51
 msgid ""
-"Upload your favicon (.ico or .png file) in the media library and copy-paste "
-"link here."
+"Upload your favicon (.ico file) in the media library and copy-paste link "
+"here."
 msgstr ""
-"Upload je favicon (.ico of .png bestand) in de media bibliotheek en kopieer-"
-"plak de link hier."
+"Upload je favicon (.ico bestand) in de media bibliotheek en kopieer-plak de "
+"link hier."
 
-#: vsfm.php:55 vsfm.php:60 vsfm.php:64
+#: vsfm.php:47
 msgid ""
 "Upload your icon (.png file) in the media library and copy-paste link here."
 msgstr ""
@@ -72,31 +56,33 @@ msgstr ""
 "link hier."
 
 #. Plugin Name of the plugin/theme
-#: vsfm.php:96
+#: vsfm.php:68
 msgid "Very Simple Favicon Manager"
 msgstr ""
 
-#: vsfm.php:100
+#: vsfm.php:73
 msgid "Save"
 msgstr "Opslaan"
 
-#: vsfm.php:102
+#: vsfm.php:76
 msgid ""
-"When no favicon or app icon is added, a default favicon or app icon will be "
-"used."
+"When no favicon or site icon link is added, a default favicon or site icon "
+"will be used."
 msgstr ""
-"Als er geen favicon of app icoon is toegevoegd, wordt een standaard favicon "
-"of app icoon gebruikt."
+"Als er geen favicon of site icoon link is toegevoegd, wordt een standaard "
+"favicon of site icoon gebruikt."
+
+#: vsfm.php:77
+msgid "For more info please check this page: "
+msgstr "Voor meer info zie deze pagina: "
 
 #. Description of the plugin/theme
 msgid ""
-"This is a very simple plugin to add an IOS, Android or Windows app icon or a "
-"favicon in the address bar of your browser. For more info please check "
-"readme file."
+"This is a very simple plugin to add an IOS site icon or a favicon in the "
+"address bar of your browser. For more info please check readme file."
 msgstr ""
-"Dit is een zeer eenvoudige plugin om een IOS, Android of Windows app icoon "
-"toe te voegen of een favicon in de adresbalk van je browser. Voor meer info "
-"zie readme bestand."
+"Dit is een zeer eenvoudige plugin om een IOS site icoon toe te voegen of een "
+"favicon in de adresbalk van je browser. Voor meer info zie readme bestand."
 
 #. Author of the plugin/theme
 msgid "Guido van der Leest"
