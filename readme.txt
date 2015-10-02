@@ -1,6 +1,6 @@
 === Very Simple Favicon Manager ===
 Contributors: Guido07111975
-Version: 1.8
+Version: 1.9
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 3.7
@@ -10,6 +10,9 @@ Tags: simple, favicon, manager, site, icon, ico, bookmark, apple, touch, tile, i
 
 
 == Changelog == 
+Version 1.9
+- changed text domain for the wordpress.org translation system
+
 Version 1.8
 - removed the Android en Windows input fields
 - added new default multi-size ico
