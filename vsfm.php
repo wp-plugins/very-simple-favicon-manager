@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Very Simple Favicon Manager
  * Description: This is a very simple plugin to add an IOS site icon or a favicon in the address bar of your browser. For more info please check readme file.
- * Version: 1.9
+ * Version: 2.0
  * Author: Guido van der Leest
  * Author URI: http://www.guidovanderleest.nl
  * License: GNU General Public License v3 or later
@@ -88,10 +88,10 @@ function vsfm_display_favicon() {
 	$vsfm_default_favicon = plugins_url( 'images/favicon.ico', __FILE__ ); 
 
 	if (empty( $vsfm_custom_favicon )) {
-		echo '<link rel="shortcut icon" href="'.$vsfm_default_favicon.'" />'."\n";
+		echo '<link rel="shortcut icon" href="'.esc_url($vsfm_default_favicon).'" />'."\n";
 	}
 	else {
-		echo '<link rel="shortcut icon" href="'.$vsfm_custom_favicon.'" />'."\n";
+		echo '<link rel="shortcut icon" href="'.esc_url($vsfm_custom_favicon).'" />'."\n";
 	}
 }
 add_action( 'wp_head', 'vsfm_display_favicon' );
@@ -103,10 +103,10 @@ function vsfm_display_icon_ios() {
 	$vsfm_default_icon_ios = plugins_url( 'images/apple-touch-icon.png', __FILE__ ); 
 
 	if (empty( $vsfm_custom_icon_ios )) {
-		echo '<link rel="apple-touch-icon" href="'.$vsfm_default_icon_ios.'" />'."\n";
+		echo '<link rel="apple-touch-icon" href="'.esc_url($vsfm_default_icon_ios).'" />'."\n";
 	}
 	else {
-		echo '<link rel="apple-touch-icon" href="'.$vsfm_custom_icon_ios.'" />'."\n";
+		echo '<link rel="apple-touch-icon" href="'.esc_url($vsfm_custom_icon_ios).'" />'."\n";
 	}
 }
 add_action( 'wp_head', 'vsfm_display_icon_ios' );
